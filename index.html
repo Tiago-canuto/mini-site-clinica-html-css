@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Saúde & Bem-Estar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Clínica Santa Clara</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="#agendamento">Agendamento</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo à Clínica Santa Clara! Oferecemos cuidados médicos de alta qualidade com um atendimento personalizado. Nossa equipe de profissionais está dedicada a proporcionar o melhor para você e sua família.</p>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Consulta Geral</td>
+                        <td>Atendimento médico geral para adultos e crianças.</td>
+                    </tr>
+                    <tr>
+                        <td>Exames de Diagnóstico</td>
+                        <td>Realizamos diversos exames para um diagnóstico preciso.</td>
+                    </tr>
+                    <tr>
+                        <td>Tratamentos Especiais</td>
+                        <td>Tratamentos especializados de acordo com a necessidade do paciente.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Seção Localização -->
+    <section id="localizacao">
+        <div class="container">
+            <h2>Localização</h2>
+            <p>Estamos localizados em um ponto central da cidade, com fácil acesso para você. Veja nosso endereço e o mapa abaixo:</p>
+            <address>
+                Rua Exemplo, 123<br>
+                Bairro Centro<br>
+                Cidade, Estado, CEP 00000-000<br>
+                <a href="mailto:contato@clinicasantaclara.com">contato@clinicasantaclara.com</a><br>
+                Telefone: (11) 1234-5678
+            </address>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1657373345683!2d-35.900258425875386!3d-7.221928492783972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ac1e376878c541%3A0x950f5cdf2be890f3!2sClinica%20Santa%20Clara!5e0!3m2!1spt-BR!2sbr!4v1722001543713!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Agendamento -->
+    <section id="agendamento">
+        <div class="container">
+            <h2>Agendamento de Consulta</h2>
+            <form action="/agendar-consulta" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="data">Data da Consulta:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="hora">Hora da Consulta:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <input type="submit" value="Agendar Consulta">
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <div class="container">
+            <p>&copy; 2024 Clínica Saúde & Bem-Estar. Todos os direitos reservados.</p>
+            <p>Email: <a href="mailto:contato@clinicasaude.com">contato@clinicasaude.com</a> | Telefone: (11) 1234-5678</p>
+        </div>
+    </footer>
+</body>
+</html>
